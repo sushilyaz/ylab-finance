@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import ru.ylab.entity.enums.Role;
+import ru.ylab.entity.enums.UserStatus;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -23,6 +24,7 @@ public class User {
     private Budget budget;
     List<Notification> notifications = new ArrayList<>();
     private Role role;
+    private UserStatus status;
     private Date createdAt;
     private Date updatedAt;
 }
