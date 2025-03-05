@@ -1,4 +1,4 @@
-package biz.eurosib;
+package ru.ylab;
 
 public class Main {
     public static void main(String[] args) {
